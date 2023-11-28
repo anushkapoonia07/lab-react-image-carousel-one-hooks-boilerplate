@@ -1,1 +1,55 @@
 /* write down the css for Carousel in this file */
+.carousel {
+    width: 55%;
+    height: 690px;
+    background-color: rgba(0, 0, 0, 0.621);
+}
+.carouselInner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.carouselInner .left {
+    display: grid;
+    flex: 5%;
+    height: 100%;
+    background-color: black;
+    place-items: center; 
+    color: white;
+    cursor: pointer;
+}
+
+.carouselInner .center {
+    flex: 80%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: justify;
+    text-align-last: center;
+}
+.carouselInner .right {
+    flex: 5%;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 90px;
+    background-color: rgba(255, 255, 255, 0.659);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.659);
+    padding: 15px;
+    border-radius: 10px;
+}
